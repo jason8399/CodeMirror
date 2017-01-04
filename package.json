@@ -13,7 +13,7 @@
     "prepublish": "npm run-script build",
     "test": "node ./test/run.js",
     "lint": "bin/lint",
-    "install": "npm run-script build && ./release.sh"
+    "install": "npm run-script build && sh release.sh"
   },
   "dependencies": {
     "blint": "^0.5.1",
